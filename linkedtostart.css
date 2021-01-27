@@ -10,4 +10,5 @@ h1 {
 #maincontent {
   background-color: rgb(110, 255, 175);
   box-shadow: 0px 5px 15px grey;
+  border-radius: 10px;
 }
