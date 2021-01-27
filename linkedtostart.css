@@ -26,7 +26,7 @@ body {
   border-radius: 15px;
 }
 .bg {
-  background: url('topbackground.jpg');
+  background: url('https://raw.githubusercontent.com/Pleyur/pleyur.github.io/main/topbackground.jpg');
   position: absolute;
   width: 100%;
   height: auto;
