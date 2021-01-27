@@ -21,7 +21,7 @@ body {
 #maincontent {
   margin:40px 180px 0px 180px;
   position: absolute;
-  background-color: rgb(110, 255, 175);
+  background-color: rgba(110, 255, 175, 0);
   box-shadow: 0px 5px 15px grey;
   border-radius: 15px;
 }
