@@ -12,12 +12,12 @@ body {
   color:rgba(255, 255, 255, 0.5);
 }
 #h1first {
-  margin: 200px 0px 0px 20px;
+  margin: 200px 160px 0px 0px;
   color: rgb(0, 0, 0);
   font-family:Montserrat; 
 }
 #firstbox {
-  margin: 0px 0px 30px 0px;
+  margin: 0px 0px 0px 50px;
   font-family: Montserrat;
   color:rgb(0, 0, 0);
   font-size: 20px;
@@ -46,7 +46,7 @@ body {
 
 #whitetransparency {
   color: rgb(255, 255, 255);
-  opacity: 0.5;
+  opacity: 0.68;
   position:absolute;
   width: 100%;
 }
