@@ -173,10 +173,13 @@ body {
 .levelboxheader {
   font-size: 30px;
   text-shadow: 0 0 8px rgb(255, 255, 255);
+  padding-top: 12px;
 }
 
 .levelboxtext {
-  text-shadow: 0 0 4px rgb(255, 255, 255);
+  text-shadow: 0 0 3px rgb(255, 255, 255), 0 0 1px; 
+  line-height: 30px;
+  padding-top: 10px;
 }
 
 #levelbox1 {
@@ -186,7 +189,7 @@ body {
   border-radius: 15px;
   box-shadow: 1px 1px 4px, inset 0 0 10px rgb(255, 255, 255);
   width: 250px; 
-  height: 400px;
+  height: 390px;
 }
 #levelbox2 {
   left: 550px;
@@ -195,7 +198,7 @@ body {
   border-radius: 15px;
   box-shadow: 1px 1px 4px, inset 0 0 10px rgb(255, 255, 255);
   width: 250px; 
-  height: 400px;
+  height: 390px;
 }
 #levelbox3 {
   right: 150px;
@@ -204,5 +207,10 @@ body {
   border-radius: 15px;
   box-shadow: 1px 1px 4px, inset 0 0 10px rgb(255, 255, 255);
   width: 250px; 
-  height: 400px;
+  height: 390px;
 } 
+
+#advancedbox {
+  font-size: 16px;
+  text-shadow: 0 0 1px, 0 0 4px rgb(255, 255, 255);
+}
