@@ -220,13 +220,20 @@ body {
   text-shadow: 0 0 1px, 0 0 4px rgb(255, 255, 255);
 }
 
-.levelbox {
-  position: relative;
-  z-index: 20;
+#levelbox1:hover, #levelbox1:active {
+  box-shadow: inset 0 0 8px rgb(255, 255, 255), 1px 1px 12px;
+  width: 100;
+  height: 100;
 }
 
-.levelbox:hover, .levelbox:active {
-  box-shadow: inset 0 0 5px rgb(255, 255, 255);
-  width: 105%;
-  height: 105%;
+#levelbox2:hover, #levelbox2:active {
+  box-shadow: inset 0 0 8px rgb(255, 255, 255), 1px 1px 12px;
+  width: 100;
+  height: 100;
+}
+
+#levelbox3:hover, #levelbox3:active {
+  box-shadow: inset 0 0 8px rgb(255, 255, 255), 1px 1px 12px;
+  width: 100;
+  height: 100;
 }
