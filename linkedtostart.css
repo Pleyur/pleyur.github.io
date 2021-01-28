@@ -59,23 +59,32 @@ body {
 }
 */
 #rod {
-  margin: -80px 0px 0px -400px;
+  margin: 50px 0px 0px -400px;
   padding: 0;
   position: absolute;
   width: auto;
   height: auto;
   animation-name: images;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+  animation-timing-function: ease;
 }
 
 #sword {
-  margin: -80px 0px 0px 470px;
+  margin:  50px 0px 0px 470px;
   position: absolute;
   width: auto;
   height: auto;
   animation-name: images;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+  animation-timing-function: ease;
 }
 
 @keyframes images {
-  from {margin-top: -50px;}
-  to {margin-top: ;}
+  0% {top: 250px;}
+  50% {top: 0px;}
+  100% {top: 250px;}
 }
