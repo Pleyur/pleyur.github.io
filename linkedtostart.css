@@ -91,3 +91,23 @@ body {
   50% {top: 80px;}
   100% {top: 230px;}
 }
+
+#secondbody {
+  background-color: #ffffff;
+  position: absolute;
+  top: 759px;
+}
+
+.font {
+  font-family: Montserrat, Helvetica;
+} 
+
+#h1 {
+  margin: 90px 0px 0px 100px;
+}
+
+#p1 {
+  margin: 50px 360px 0px 170px;
+  line-height: 40px;
+  padding-bottom: 70px;
+}
