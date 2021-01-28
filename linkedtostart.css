@@ -14,7 +14,9 @@ body {
 #h1first {
   margin: 200px 0px 0px 120px;
   color: rgb(0, 0, 0);
-  font-family:Montserrat, Helvetica; 
+  font-family: Montserrat, Helvetica; 
+  font-weight: bold;
+  text-shadow: 0px 0px 4px white;
 }
 .firstbox {
   margin: 0px 0px 0px 200px;
@@ -22,6 +24,7 @@ body {
   color:rgb(0, 0, 0);
   font-size: 20px; 
   font-weight: bold;
+  text-shadow: 0px 0px 4px white;
 }
 #maincontent {
   margin:40px 180px 0px 180px;
@@ -84,7 +87,7 @@ body {
 }
 
 @keyframes images {
-  0% {top: 250px;}
+  0% {top: 230px;}
   50% {top: 80px;}
-  100% {top: 250px;}
+  100% {top: 230px;}
 }
