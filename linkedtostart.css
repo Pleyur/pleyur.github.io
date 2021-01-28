@@ -18,6 +18,11 @@ body {
   height: 80px;
   width: 80px; 
   margin: 25px 0px 0px 30px;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 #h1first {
@@ -91,6 +96,11 @@ body {
   animation-iteration-count: infinite;
   animation-delay: 2s;
   animation-timing-function: ease;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 #sword {
@@ -103,6 +113,11 @@ body {
   animation-iteration-count: infinite;
   animation-delay: 2s;
   animation-timing-function: ease;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 @keyframes images {
