@@ -12,15 +12,16 @@ body {
   color:rgba(255, 255, 255, 0.5);
 }
 #h1first {
-  margin: 200px 160px 0px 0px;
+  margin: 200px 0px 0px 120px;
   color: rgb(0, 0, 0);
-  font-family:Montserrat; 
+  font-family:Montserrat, Helvetica; 
 }
-#firstbox {
-  margin: 0px 0px 0px 50px;
-  font-family: Montserrat;
+.firstbox {
+  margin: 0px 0px 0px 200px;
+  font-family: Montserrat, Helvetica;
   color:rgb(0, 0, 0);
-  font-size: 20px;
+  font-size: 20px; 
+  font-weight: bold;
 }
 #maincontent {
   margin:40px 180px 0px 180px;
