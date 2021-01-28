@@ -11,6 +11,12 @@ body {
   position: relative;
   color:rgba(255, 255, 255, 0.5);
 }
+#logo {
+  position: absolute;
+  height: 140px;
+  width: 140px; 
+}
+
 #h1first {
   margin: 200px 0px 0px 120px;
   color: rgb(0, 0, 0);
@@ -103,11 +109,24 @@ body {
 } 
 
 #h1 {
+  position: absolute;
   margin: 90px 0px 0px 100px;
 }
 
 #p1 {
-  margin: 50px 360px 0px 170px;
+  position: relative;
+  margin: 160px 420px 0px 170px;
   line-height: 40px;
   padding-bottom: 70px;
+}
+
+#firstimage {
+  position: relative; 
+  width: 240px; 
+  height: 240px;
+  object-fit: cover;
+  object-position: 70% 70%;
+  left: 1000px;
+  bottom: 300px;
+  border-radius: 20px;
 }
