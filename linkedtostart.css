@@ -12,13 +12,15 @@ body {
   color:rgba(255, 255, 255, 0.5);
 }
 #h1first {
-  margin-top:200px;
+  margin: 200px 0px 0px 20px;
   color: rgb(0, 0, 0);
   font-family:Montserrat; 
 }
 #firstbox {
   margin: 0px 0px 30px 0px;
   font-family: Montserrat;
+  color:rgb(0, 0, 0);
+  font-size: 20px;
 }
 #maincontent {
   margin:40px 180px 0px 180px;
@@ -41,11 +43,10 @@ body {
   -webkit-user-select: none;
   -ms-user-select: none;
 }
-/*
+
 #whitetransparency {
   color: rgb(255, 255, 255);
   opacity: 0.5;
   position:absolute;
-  height: auto;
+  width: 100%;
 }
-*/
