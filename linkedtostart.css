@@ -37,7 +37,7 @@ body {
   padding-top: 25px;
   padding-right: 100%;
   box-shadow: 0 0 2.5px rgb(0, 0, 0);
-  z-index: 20;
+  z-index: 500;
 } 
 
 #lessons {
@@ -46,9 +46,10 @@ body {
   padding-bottom: 10px;
   background-color: transparent;
   border:rgb(0, 0, 0); 
-  left: 1700%; 
+  left: 1200%; 
   text-shadow: 0 0 0px rgb(0, 0, 0);
   letter-spacing: 0.8px;
+  z-index: 20;
 }
 
 #firstbody {
@@ -61,25 +62,25 @@ body {
   position: absolute; 
   width: 100%;
   margin: 200px 0px 0px 120px;
-  padding: 0px 200px 0px 100px;
+  padding: 0px 200px 0px 125px;
   color: rgb(0, 0, 0);
   font-family: Montserrat, Helvetica; 
   font-weight: bold;
-  text-shadow: 0px 0px 4px white;
+  text-shadow: 0px 0px 4px white, 0 0 13px white;
   white-space: nowrap
 }
 #firstbox {
   position: absolute;
-  padding: 20px 300px 0px 30px;
+  padding: 20px 300px 0px 18px;
   width: 500px;
-  top: 300px;
+  top: 240px;
+  bottom: 300px;
   margin: 0px 0px 0px 200px;
   font-family: Montserrat, Helvetica;
   color:rgb(0, 0, 0);
   font-size: 20px; 
   font-weight: bold;
-  text-shadow: 0px 0px 4px white;
-  text-shadow: 0px 0px 2px white;
+  text-shadow: 0px 0px 4px white, 0 0 13px white;
 }
 #maincontent {
   margin:40px 180px 0px 180px;
@@ -292,5 +293,4 @@ body {
 #levelbox3:hover, #levelbox3:active {
   box-shadow: inset 0 0 8px rgb(255, 255, 255), 1px 1px 12px;
   width: 18.5%;
-  height: 100;
-}
+idth: 100;
