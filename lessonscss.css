@@ -66,6 +66,11 @@ body {
   width: 100%;
   font-size: 50px;
   z-index: 5;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 } 
 
 #underlineh1 {
@@ -115,4 +120,109 @@ body {
 @keyframes fadein {
   0% {opacity: 0%;}
   100% {opacity: 100%;}
+}
+
+#beginnersection {
+  position: absolute;
+  text-align: center;
+  background-color: rgba(0, 230, 0, 0.692);
+  border-radius: 15px;
+  box-shadow: 1px 1px 4px, inset 0 0 10px rgb(255, 255, 255);
+  width: 60%; 
+  height: 90px;
+  top: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  left: 0; 
+  right: 0;
+}
+
+#beginnertext {
+  position: relative;
+  font-size: 30px;
+  text-shadow: 1px 1px 3px rgb(255, 255, 255);
+  margin-top: 0px;
+  padding-top: 30px;
+  z-index: 2;
+}
+
+.lessonbox {
+  left: 11.1%;
+  position: absolute;
+  background-color: rgba(0, 255, 0, 0.548);
+  border-radius: 15px;
+  box-shadow: 1px 1px 4px, inset 0 0 10px rgb(255, 255, 255);
+  width: 18.5%; 
+  height: 390px;
+  top: 900px;
+  z-index: -4;
+}
+
+.lessonboxheader {
+  position: relative;
+  font-size: 25px;
+  text-shadow: 0 0 8px rgb(255, 255, 255);
+  padding-top: 12px;
+  z-index: -10;
+  text-align: center;
+}
+
+.lessonboxtext {
+  position: relative;
+  font-size: 15px;
+  text-shadow: 0 0 3px rgb(255, 255, 255), 0 0 1px; 
+  line-height: 30px;
+  padding-top: 10px;
+  z-index: -10;
+  text-align: center;
+}
+
+
+#averagesection {
+  position: absolute;
+  text-align: center;
+  background-color: rgba(0, 122, 221, 0.623);
+  border-radius: 15px;
+  box-shadow: 1px 1px 4px, inset 0 0 10px rgb(255, 255, 255);
+  width: 60%; 
+  height: 90px;
+  top: 1400px;
+  margin-right: auto;
+  margin-left: auto;
+  left: 0; 
+  right: 0;
+}
+
+#averagetext {
+  position: relative;
+  font-size: 30px;
+  text-shadow: 1px 1px 3px rgb(255, 255, 255);
+  margin-top: 0px;
+  padding-top: 30px;
+  z-index: 2;
+}
+
+
+#advancedsection {
+  position: absolute;
+  text-align: center;
+  background-color: rgba(209, 0, 0, 0.685);
+  border-radius: 15px;
+  box-shadow: 1px 1px 4px, inset 0 0 10px rgb(255, 255, 255);
+  width: 60%; 
+  height: 90px;
+  top: 2000px;
+  margin-right: auto;
+  margin-left: auto;
+  left: 0; 
+  right: 0;
+}
+
+#advancedtext {
+  position: relative;
+  font-size: 30px;
+  text-shadow: 1px 1px 3px rgb(255, 255, 255);
+  margin-top: 0px;
+  padding-top: 30px;
+  z-index: 2;
 }

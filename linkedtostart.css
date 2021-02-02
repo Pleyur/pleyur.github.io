@@ -251,6 +251,8 @@ body {
   width: 18.5%; 
   height: 390px;
   z-index: -4;
+  color:rgb(0, 0, 0);
+  text-decoration: none;
 }
 
 #levelbox2 {
@@ -262,6 +264,8 @@ body {
   width: 18.5%; 
   height: 390px;
   z-index: -5;
+  color:rgb(0, 0, 0);
+  text-decoration: none;
 }
 #levelbox3 {
   left: 70.5%;
@@ -272,6 +276,8 @@ body {
   width: 18.5%; 
   height: 390px;
   z-index: -5;
+  color:rgb(0, 0, 0);
+  text-decoration: none;
 } 
 
 #advancedbox {
