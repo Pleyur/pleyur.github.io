@@ -32,6 +32,17 @@ body {
   z-index: 20;
 } 
 
+#homepage {
+  position: absolute; 
+  bottom: 8px;
+  padding-bottom: 10px;
+  background-color: transparent;
+  border:rgb(0, 0, 0); 
+  left: 42%; 
+  text-shadow: 0 0 0px rgb(0, 0, 0);
+  letter-spacing: 0.8px; 
+}
+
 #lessons {
   position: relative; 
   bottom: 8px;
@@ -54,27 +65,21 @@ body {
   top: 160px;
   width: 100%;
   font-size: 50px;
+  z-index: 5;
 } 
 
 #underlineh1 {
-  position: absolute;
+  position: relative;
   text-align: center; 
-  padding: 50px;
-  margin: 20px;
   width: 190px;
-  border: 15px solid rgb(255, 255, 255); 
-  z-index: 20;
-}
-
-#homepage {
-  position: absolute; 
-  bottom: 8px;
-  padding-bottom: 10px;
-  background-color: transparent;
-  border:rgb(0, 0, 0); 
-  left: 42%; 
-  text-shadow: 0 0 0px rgb(0, 0, 0);
-  letter-spacing: 0.8px; 
+  height: 10px; 
+  z-index: 5; 
+  margin-right: auto;
+  margin-left: auto;
+  background: white; 
+  border-radius: 3px;
+  box-shadow: 0 0 0px rgb(0, 0, 0);
+  opacity: 0.9;
 }
 
 .imageblur {
@@ -83,7 +88,7 @@ body {
   width: 100%;
   filter: blur(8px);
   -webkit-filter: blur(8px);
-  z-index: -5;
+  z-index: 2;
 }
 
 #background {
@@ -104,7 +109,7 @@ body {
   animation-iteration-count: 1;
   animation-delay: 0s;
   animation-timing-function: ease;
-  z-index: 5;
+  z-index: -5;
 }
 
 @keyframes fadein {
