@@ -2,6 +2,8 @@ html {
   height: 100%;
 }
 body {
+  margin-top: 0px;
+  padding-top: 0px;
   padding: 0;
   margin: 0;
   height: 100%;
@@ -20,7 +22,10 @@ body {
 #nav {
   position: fixed; 
   background-color: #ffffff;
+  top: 0px;
   opacity: 0.8;
+  margin-top: 0px; 
+  width: 100%;
   padding-top: 25px;
   padding-right: 100%;
   box-shadow: 0 0 2.5px rgb(0, 0, 0);
@@ -33,11 +38,24 @@ body {
   padding-bottom: 10px;
   background-color: transparent;
   border:rgb(0, 0, 0); 
-  left: 1100px; 
+  left: 90%; 
   text-shadow: 0 0 0px rgb(0, 0, 0);
-  letter-spacing: 0.8px;
+  letter-spacing: 0.8px; 
+  cursor: pointer;
 }
 
 #h1 {
-  text-align: center;
+  text-align: center; 
+  padding-top: 50px;
+}
+
+#homepage {
+  position: absolute; 
+  bottom: 8px;
+  padding-bottom: 10px;
+  background-color: transparent;
+  border:rgb(0, 0, 0); 
+  left: 42%; 
+  text-shadow: 0 0 0px rgb(0, 0, 0);
+  letter-spacing: 0.8px; 
 }
