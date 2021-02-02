@@ -103,7 +103,7 @@ body {
   -webkit-user-select: none;
   -ms-user-select: none;
   animation-name: slidein; 
-  animation-duration: 3s;
+  animation-duration: 2.5s;
   animation-iteration-count: 1;
   animation-delay: 0s;
   animation-timing-function: ease;
@@ -212,6 +212,7 @@ body {
   top: 20%;
   border-radius: 20px;
   z-index: -10;
+  box-shadow: 1px 1px 10px black;
 }
 
 #thirdbody {
