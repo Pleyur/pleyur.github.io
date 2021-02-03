@@ -1,0 +1,67 @@
+#aiming {
+
+    margin-left: 150px;
+    width: 200%;
+    margin-top: 5px;
+    font-family: Montserrat;
+    position: static;
+}
+
+#aimingtitle {
+    margin-left: 75px;
+    font-family: Montserrat;
+    position: static;
+    
+}
+
+#cpstitle {
+    margin-top: 75px;
+    margin-left: 75px;
+    font-family: Montserrat;
+}
+
+#cpstest {
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 200%;
+    position: static;
+    font-family: Montserrat;
+}
+
+#w-taptitle {
+    margin-top: 75px;
+    margin-left: 75px;
+    font-family: Montserrat;
+}
+
+#w-tappara {
+    margin-left: 150px;
+    width: 200%;
+    font-family: Montserrat;
+}
+
+#blockhittitle {
+    margin-top: 75px;
+    margin-left: 75px;
+    font-family: Montserrat;
+    width: 200%;
+
+}
+
+#blockhittext {
+    margin-top: 40px;
+    margin-left: 150px;
+    font-family: Montserrat;
+    width: 200%;
+
+}
+
+#BeginnerTitle {
+margin-left: 550px;
+width: 150%;
+}
+
+#TopOfPage {
+    margin-top: 5px;
+    margin-left: 450px;;
+}
